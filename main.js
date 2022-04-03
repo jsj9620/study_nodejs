@@ -167,5 +167,5 @@ var app = http.createServer(function (request, response) {
         response.writeHead(404);
         response.end('Not Found');
     }
-}); //232
+});
 app.listen(3000);
