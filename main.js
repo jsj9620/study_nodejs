@@ -152,7 +152,7 @@ var app = http.createServer(function (request, response) {
         });
     } else if (pathname === '/delete_process') { // 삭제기능
         var body = '';
-        request.on('data', function (data) {
+        request.oㄹn('data', function (data) {
             body = body + data;
         });
         request.on('end', function () {
