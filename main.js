@@ -123,7 +123,7 @@ var app = http.createServer(function (request, response) {
         })
 
     } else if (pathname === '/create_process') {
-        var body = '';
+        // var body = '';
         request.on('data', function (data) {
             body = body + data;
         });
@@ -163,7 +163,7 @@ var app = http.createServer(function (request, response) {
             });
         });
     } else if (pathname === '/update_process') {
-        var body = '';
+        // var body = '';
         request.on('data', function (data) {
             body = body + data;
         });
